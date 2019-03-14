@@ -37,6 +37,16 @@ body  {
   text-align:justify;
 }
 
+#temperatureText {
+  color:#DC5A48;
+  font-size:1.5em;
+}
+
+#temperature {
+  color: #000000;
+  font-size: 2em;
+}
+
 .fa-bars{
   font-size:2em
 }

@@ -25,11 +25,13 @@ temperature = (year) => {
   return(Math.round(T*100)/100);
 }
 
+
+//Creation of the graph
 document.getElementById("temperatureForm").addEventListener("submit", (e)=>{
   e.preventDefault();
   if(document.getElementById("userYear").value != 0){
 
-  document.getElementById("temperature").innerHTML = temperature(document.getElementById("userYear").value);
+  document.getElementById("temperature").innerHTML = temperature(document.getElementById("userYear").value) + " ºC";
 
   }else{
   alert("Por favor ingresa un valor valido");
