@@ -29,7 +29,6 @@ document.getElementById("temperatureForm").addEventListener("submit", (e)=>{
   e.preventDefault();
   if(document.getElementById("userYear").value == 0 || isNaN(document.getElementById("userYear").value)){
     alert("Por favor ingresa un valor valido");
-    console.log("Por favor ingresa un valor valido");
   }else{
     document.getElementById("temperature").innerHTML = temperature(document.getElementById("userYear").value) + " ºC";
 }
