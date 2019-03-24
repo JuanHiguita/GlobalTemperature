@@ -1,5 +1,5 @@
 // Collapse Navbar
-  var navbarCollapse = function() {
+  var navbarCollapse = () => {
     if ($("#mainNav").offset().top > 40) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
